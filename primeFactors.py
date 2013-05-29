@@ -4,5 +4,5 @@ class primeFactors(object):
 
 	def generate(self,n):
 		if n > 1:
-			self.__primes.append(2)
+			self.__primes.append(n)
 		return self.__primes
