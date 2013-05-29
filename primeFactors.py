@@ -1,6 +1,8 @@
 class primeFactors(object):
 	def __init__(self):
-		pass
+		self.__primes = []
 
 	def generate(self,n):
-		return []
+		if n > 1:
+			self.__primes.append(2)
+		return self.__primes
