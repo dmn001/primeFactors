@@ -3,6 +3,7 @@ class primeFactors(object):
 		self.__primes = []
 
 	def generate(self,n):
+		self.__primes = []
 		candidate = 2
 		while n > 1:
 			while n % candidate == 0:
