@@ -9,6 +9,4 @@ class primeFactors(object):
 				self.__primes.append(candidate)
 				n /= candidate
 			candidate += 1
-		if n > 1:
-			self.__primes.append(n)
 		return self.__primes
