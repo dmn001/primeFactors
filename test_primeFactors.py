@@ -7,7 +7,7 @@ class primeFactorsTest(unittest.TestCase):
       self.p = primeFactors()
 
    def test_generate_returns_list(self):
-      assert([], self.p.generate(1))
+      self.assertEqual([], self.p.generate(1))
 
 if __name__ == "__main__":
 	unittest.main()
