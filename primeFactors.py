@@ -1,0 +1,2 @@
+class primeFactors(object):
+	pass
